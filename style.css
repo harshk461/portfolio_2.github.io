@@ -1,0 +1,193 @@
+body{
+    background-color: FF9300;
+}
+.topnav{
+    background-color: FFC600;
+    width:100%;
+    margin-left:-0.5%;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top:0;
+    position: fixed;
+    overflow: auto;
+}
+.home,.hobbie,.skills,.name,.hobbie2{
+    text-align: right;
+    font-size: large;
+    color:D9534F;
+    padding-right: 5%;
+    font-weight: bolder;
+    font-size:x-large;
+}
+.hobbie2{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.topnav-left{
+    margin-left:10%;
+    font-size:30px;
+    float:left;
+}
+.main_class{ 
+    margin-top: 10%;
+    margin-left: 100px;
+    font-size: 50px;
+}
+.Ph{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+}
+.Ph:hover{
+    transition: 0.5s;
+    font-size: 65px;
+    color:#ccc;
+}
+.main_2:hover{
+    transition: 0.5s;
+    font-size: 35px;
+    color:rgb(0, 85, 134);
+}
+.main_2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:bisque;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.img_class{
+    margin-left: 900px;
+}
+#Hobbies,#Skills{
+    color:white;
+    background-color:FF9300 ;
+    border-style:none;
+    border-width: none;
+    font-size:30px;
+    padding:5px 20px 5px 20px;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-right: 60px;
+}
+#Hobbies:hover,#Skills:hover{
+    transition-duration: 0.5s;
+    background-color: aquamarine;
+    color:1572A1;
+}
+.hob_main{
+    font-size:50px;
+    margin-left: -6%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    font-weight: lighter;
+    text-align: center;
+}
+.hobbie_class{
+    margin-top: 15%;
+    text-align: center;
+    width:100%;
+}
+.bad,.code,.read,.sleep{
+    padding-top:3%;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    font-weight: bolder;
+    font-variant: initial;
+}
+.bad{margin-left: 7%;}
+.hobbie2{
+    text-decoration: dotted;
+    border-bottom: 2px;
+}
+.skl{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin-top:5%;
+    left:50%;
+}
+#HTML,#CSS,#Java{
+    margin-bottom: 4%;
+    margin-left: 24%;
+    width:50%;
+    height: 20px;
+}
+
+.lbl{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-left:24%;
+    font-weight: lighter;
+}
+.icn{
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.hoverMeBottom:after{
+    width:0;
+    height:3px;
+    background:#222;
+    display:block;
+    content:'';
+    transition: width 0.5s ease-in-out;
+}
+.hoverMeBottom:hover:after{
+    width:100%;
+    background: yellow;
+}
+.hobbie:hover,.home:hover,.skills:hover,.name:hover,.hobbie2:hover{
+    transition: 0.5s;
+    color:548CFF;
+    text-shadow: 2px 2px  5px aquamarine;
+}
+.name:hover{
+    transition: 0.5s;
+    color:7900FF;
+}
+.icn_2{
+    margin-left:7%;
+}
+.icn2,.icn_2{
+    margin-top: 3%;
+    text-align: center;
+    font-size:40px;
+    padding-right: 7%;
+}
+.fa-music:hover,.fa-book:hover,.fa-code:hover,.fa-bed:hover{
+   transition: 0.5s;
+    font-size:50px;
+}
+.fa-code:hover{color:aquamarine;}
+.fa-bed:hover{color:rgb(16, 241, 103);}
+.fa-music:hover{color:rgb(14, 240, 44);}
+.fa-book:hover{color:rgb(96, 96, 255);}
+.bad:hover,.code:hover,.read:hover,.sleep:hover{color:7900FF;}
+.lbl:hover{
+    transition: 0.5s;
+    color:aquamarine;
+    font-size:45px;
+}
+.image_class{
+    float:right;
+    margin-right: 10%;
+    margin-top:-8%;
+}
+.img{
+    border-radius: 100%;
+    width:400px;
+    height:400px;
+}
+.img:hover{
+    box-shadow: 10px 0 5px #ccc,-10px 0 5px #ccc,10px 0 5px #ccc,-10px 0 5px #ccc;
+      
+}
